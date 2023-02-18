@@ -1,0 +1,15 @@
+@InProceedings{pmlr-v80-lu18c,
+  title = 	 {Structured Variationally Auto-encoded Optimization},
+  author =       {Lu, Xiaoyu and Gonzalez, Javier and Dai, Zhenwen and Lawrence, Neil},
+  booktitle = 	 {Proceedings of the 35th International Conference on Machine Learning},
+  pages = 	 {3267--3275},
+  year = 	 {2018},
+  editor = 	 {Dy, Jennifer and Krause, Andreas},
+  volume = 	 {80},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {10--15 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v80/lu18c/lu18c.pdf},
+  url = 	 {https://proceedings.mlr.press/v80/lu18c.html},
+  abstract = 	 {We tackle the problem of optimizing a black-box objective function defined over a highly-structured input space. This problem is ubiquitous in science and engineering. In machine learning, inferring the structure of a neural network or the Automatic Statistician (AS), where the optimal kernel combination for a Gaussian process is selected, are two important examples. We use the \as as a case study to describe our approach, that can be easily generalized to other domains. We propose an Structure Generating Variational Auto-encoder (SG-VAE) to embed the original space of kernel combinations into some low-dimensional continuous manifold where Bayesian optimization (BO) ideas are used. This is possible when structural knowledge of the problem is available, which can be given via a simulator or any other form of generating potentially good solutions. The right exploration-exploitation balance is imposed by propagating into the search the uncertainty of the latent space of the SG-VAE, that is computed using variational inference. The key aspect of our approach is that the SG-VAE can be used to bias the search towards relevant regions, making it suitable for transfer learning tasks. Several experiments in various application domains are used to illustrate the utility and generality of the approach described in this work.}
+}
